@@ -1,0 +1,5 @@
+baseURL: https://example.org/
+languageCode: zh
+title: Steven's Site
+theme: ["PolyRhythmic"]
+defaultContentLanguage: zh

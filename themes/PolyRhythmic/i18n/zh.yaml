@@ -1,0 +1,188 @@
+- id: prev_page
+  translation: "上一页"
+
+- id: title_prev_page
+  translation: "上一页(p)"
+
+- id: next_page
+  translation: "下一页"
+
+- id: next_page
+  translation: "下一页(n)"
+
+- id: title_rand_page
+  translation: "随机一页（r）"
+
+- id: read_time
+  translation:
+    one : "1 分钟"
+    other: "{{ .Count }} 分钟"
+
+- id: toc
+  translation: "目录"
+
+- id: translations
+  translation: "语言"
+
+- id: home
+  translation: "主页"
+
+- id: code_copy
+  translation: "复制"
+
+- id: code_copied
+  translation: "已复制！"
+
+- id: search_placeholder
+  translation: "搜索"
+
+# Contact 
+
+- id: js_required
+  translation: "提交此表需要使用Javascript"
+
+- id: contact_submitted
+  translation: "感谢来信，您的消息已发送。"
+
+- id: contact_error
+  translation: "发送消息时出了点问题，请稍后再试。"
+
+- id: contact_name
+  translation: "昵称"
+
+- id: contact_name_placeholder
+  translation: "输入昵称"
+
+- id: contact_mail
+  translation: "E-mail 地址"
+
+- id: contact_mail_placeholder
+  translation: "输入 E-mail 地址"
+
+- id: contact_subject
+  translation: "主题"
+
+- id: contact_subject_placeholder
+  translation: "输入消息的主题"
+
+- id: contact_message
+  translation: "消息"
+
+- id: contact_message_placeholder
+  translation: "输入消息"
+
+- id: contact_submit_feedback
+  translation: "提交反馈"
+
+# 404
+
+- id: 404_message
+  translation: "未找到页面"
+
+- id: 404_back_home
+  translation: "回到首页"
+
+- id: title_go_to_home
+  translation: "回到首页（h）"
+
+
+# theme control page 主题设置页
+- id: title_toggle_dark_mode
+  translation: "切换暗黑主题（t）"
+
+- id: theme_controls
+  translation: "主题设置"
+
+- id: title_theme_contols
+  translation: "主题设置（c）"
+
+- id: theme_controls.color
+  translation: "颜色"
+
+- id: theme_controls.hue
+  translation: "色调"
+
+- id: theme_controls.rand_hues
+  translation: "随机色调"
+
+- id: theme_controls.chroma
+  translation: "饱和度"
+
+- id: theme_controls.rand_chroma
+  translation: "随机饱和度"
+
+- id: theme_controls.lightness
+  translation: "亮度"
+
+- id: theme_controls.color_temp
+  translation: "色温"
+
+- id: theme_controls.cooler
+  translation: "冷色调"
+
+- id: theme_controls.warmer
+  translation: "暖色调"
+
+- id: theme_controls.contrast
+  translation: "对比度"
+
+- id: theme_controls.images
+  translation: "图片设置"
+
+- id: theme_controls.images_notes
+  translation: "暗黑模式下图片变暗"
+
+- id: theme_controls.shapes
+  translation: "形状设置"
+
+- id: theme_controls.shapes_notes
+  translation: "形状圆角程度"
+
+- id: theme_controls.typography
+  translation: "文字排版设置"
+
+- id: theme_controls.text_width
+  translation: "文字内容宽度"
+
+- id: theme_controls.font_size
+  translation: "字体大小"
+
+- id: theme_controls.line_height
+  translation: "行高"
+
+- id: theme_controls.brand_font
+  translation: "标题字体家族"
+
+- id: theme_controls.plain_font
+  translation: "正文字体家族"
+
+- id: theme_controls.code_font
+  translation: "代码字体家族"
+
+- id: theme_controls.example_brand_text
+  translation: "标题字体示例 Example: Brand text 123"
+
+- id: theme_controls.example_plain_text
+  translation: "正文字体示例 Example: Plain text 123"
+
+- id: theme_controls.example_code_text
+  translation: "代码字体示例 Example: Code text 123"
+
+- id: theme_controls.contrast
+  translation: "对比度"
+
+- id: theme_controls.contrast
+  translation: "对比度"
+
+- id: theme_controls.contrast
+  translation: "对比度"
+
+
+# Input list of other UI components to translate
+
+# Navigation labels
+# Button text
+# Form labels
+# Section headings
+# Footer text
+# Error messages
