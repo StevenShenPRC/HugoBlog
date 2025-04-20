@@ -18,7 +18,7 @@
 
   {{ if .actions }}
     <span class="actions">
-      <button class="component button common">Cancel</button>
+      <button class="component button common">{{i18n "btn.cancel" | default "Cancel"}}</button>
       <button class="component button common">Accept</button>
     </span>
   {{ end }}

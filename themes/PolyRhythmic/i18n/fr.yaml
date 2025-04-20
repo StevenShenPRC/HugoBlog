@@ -1,28 +1,165 @@
 - id: prev_page
-  translation: "Page Précédente"
+  translation: "Page précédente"
+
+- id: title_prev_page
+  translation: "Page précédente (p)"
 
 - id: next_page
-  translation: "Page Suivante"
+  translation: "Page suivante"
+
+- id: title_next_page
+  translation: "Page suivante (n)"
+
+- id: title_rand_page
+  translation: "Page aléatoire (r)"
 
 - id: read_time
   translation:
-    one : "1 min"
-    other: "{{ .Count }} min"
+    one : "1 minute"
+    other: "{{ .Count }} minutes"
 
 - id: toc
-  translation: "Table des Matières"
+  translation: "Table des matières"
 
 - id: translations
-  translation: "Traductions"
+  translation: "Langues"
 
 - id: home
   translation: "Accueil"
 
-- id: edit_post
-  translation: "Modifier"
-
 - id: code_copy
-  translation: "copier"
+  translation: "Copier"
 
 - id: code_copied
-  translation: "copié!"
+  translation: "Copié !"
+
+- id: search_placeholder
+  translation: "Rechercher"
+
+# Contact 
+
+- id: js_required
+  translation: "JavaScript est requis pour soumettre ce formulaire"
+
+- id: contact_submitted
+  translation: "Merci pour votre message, il a été envoyé."
+
+- id: contact_error
+  translation: "Une erreur est survenue lors de l'envoi de votre message, veuillez réessayer plus tard."
+
+- id: contact_name
+  translation: "Nom"
+
+- id: contact_name_placeholder
+  translation: "Entrez votre nom"
+
+- id: contact_mail
+  translation: "Adresse e-mail"
+
+- id: contact_mail_placeholder
+  translation: "Entrez votre adresse e-mail"
+
+- id: contact_subject
+  translation: "Sujet"
+
+- id: contact_subject_placeholder
+  translation: "Entrez le sujet de votre message"
+
+- id: contact_message
+  translation: "Message"
+
+- id: contact_message_placeholder
+  translation: "Entrez votre message"
+
+- id: contact_submit_feedback
+  translation: "Envoyer un commentaire"
+
+# 404
+
+- id: 404_message
+  translation: "Page non trouvée"
+
+- id: 404_back_home
+  translation: "Retour à l'accueil"
+
+- id: title_go_to_home
+  translation: "Retour à l'accueil (h)"
+
+# theme control page 主题设置页
+- id: title_toggle_dark_mode
+  translation: "Basculer en mode sombre (t)"
+
+- id: theme_controls
+  translation: "Contrôles de thème"
+
+- id: title_theme_controls
+  translation: "Contrôles de thème (c)"
+
+- id: theme_controls.color
+  translation: "Couleurs"
+
+- id: theme_controls.hue
+  translation: "Teinte"
+
+- id: theme_controls.rand_hues
+  translation: "Teintes aléatoires"
+
+- id: theme_controls.chroma
+  translation: "Chroma"
+
+- id: theme_controls.rand_chroma
+  translation: "Chroma aléatoire"
+
+- id: theme_controls.lightness
+  translation: "Luminosité"
+
+- id: theme_controls.color_temp
+  translation: "Température de couleur"
+
+- id: theme_controls.cooler
+  translation: "Plus froid"
+
+- id: theme_controls.warmer
+  translation: "Plus chaud"
+
+- id: theme_controls.images
+  translation: "Paramètres d'image"
+
+- id: theme_controls.images_notes
+  translation: "Attenuer les images en mode sombre"
+
+- id: theme_controls.shapes_notes
+  translation: "Rayon de coin des formes"
+
+- id: theme_controls.typography
+  translation: "Paramètres de typographie"
+
+- id: theme_controls.text_width
+  translation: "Largeur du contenu textuel"
+
+- id: theme_controls.font_size
+  translation: "Taille de police"
+
+- id: theme_controls.line_height
+  translation: "Hauteur de ligne"
+
+- id: theme_controls.brand_font
+  translation: "Famille de police de la marque"
+
+- id: theme_controls.plain_font
+  translation: "Famille de police du texte brut"
+
+- id: theme_controls.code_font
+  translation: "Famille de police du code"
+
+- id: theme_controls.example_brand_text
+  translation: "Exemple de police de marque : Exemple de texte de marque 123"
+
+- id: theme_controls.example_plain_text
+  translation: "Exemple de police de texte brut : Exemple de texte brut 123"
+
+- id: theme_controls.example_code_text
+  translation: "Exemple de police de code : Exemple de texte de code 123"
+
+- id: theme_controls.contrast
+  translation: "Contraste"

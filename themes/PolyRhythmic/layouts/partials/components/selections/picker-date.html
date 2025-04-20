@@ -20,7 +20,7 @@
           <input
             type="date"
             value="Start date" />
-          <label>Start</label>
+          <label>{{ i18n "picker_date.start" | default "Start"}}</label>
         </div>
 
         <div
@@ -28,7 +28,7 @@
           <input
             type="date"
             values="End date" />
-          <label>End</label>
+          <label>{{ i18n "picker_date.end" | default "End"}}</label>
         </div>
       </div>
     {{ else }}
@@ -38,13 +38,13 @@
           type="date"
           name="date"
           placeholder=" " />
-        <label>Date</label>
+        <label>{{ i18n "picker_date.date" | default "Date"}}</label>
       </div>
     {{ end }}
 
     <div class="date-picker-actions">
-      <button class="component button common">Cancel</button>
-      <button class="component button common">OK</button>
+      <button class="component button common">{{i18n "btn.cancel" | default "Cancel"}}</button>
+      <button class="component button common">{{i18n "btn.ok" | default "OK"}}</button>
     </div>
   {{ end }}
 </div>

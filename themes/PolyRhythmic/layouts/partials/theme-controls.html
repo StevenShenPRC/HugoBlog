@@ -11,13 +11,13 @@
   </label>
   
   <div class="component sheet side modal controls elevation1">
-    <span class="theme-controls-title headline-medium">{{ i18n "theme_controls" |default "Theme controls"}}</span>
+    <span class="theme-controls-title headline-medium">{{ i18n "theme_controls" | default "Theme controls" }}</span>
     
     {{/*  Colors  */}}
     <span class="theme-controls-title title-medium">{{ i18n "theme_controls.color" | default "Colors"}}</span>
 
     <div id="color-selector-container">
-      <label>{{ i18n "theme_controls.hue" | default "Hue"}}</label>
+      <label>{{ i18n "theme_controls.hue" | default "Hue" }}</label>
       <div class="slider">
         <input type="range" id="hue-selector" min="0" max="360" value="268"/>
         <span class="tooltip" id="hue-tooltip"></span>
@@ -29,7 +29,7 @@
         {{i18n "theme_controls.rand_hues" | default "Randomize hues"}}
       </a>
           
-      <label>{{ i18n "theme_controls.chroma" | default "Chroma"}}</label>
+      <label>{{ i18n "theme_controls.chroma" | default "Chroma" }}</label>
       <div class="slider">
         <input type="range" id="chroma-selector" min="0" max="100" value="58"/>
         <span class="tooltip" id="chroma-tooltip"></span>
@@ -41,11 +41,11 @@
         {{ i18n "theme_controls.rand_chroma" | default "Randomize chromas"}}
       </a>
 
-      <label>{{i18n "theme_controls.lightness" | default "Lightness"}}</label>
+      <label>{{i18n "theme_controls.lightness" | default "Lightness" }}</label>
       <div id="theme-lightness"></div>
 
       {{/*  Tertiary color temperature */}}
-      <label>{{i18n "theme_controls.color_temp" | default  "Tertiary temperature"}}</label>
+      <label>{{i18n "theme_controls.color_temp" | default "Tertiary temperature" }}</label>
 
       <div class="set segmented-buttons">
         <label class="component button segmented start">
@@ -95,9 +95,9 @@
     </div>
 
     {{/*  Dim images in dark mode */}}
-    <span class="theme-controls-title title-medium">{{i18n "theme_controls.images" |default "Images"}}</span>
+    <span class="theme-controls-title title-medium">{{i18n "theme_controls.images" | default "Images" }}</span>
     <div id="dim-images-selector-container">
-      <label>{{ i18n "theme_controls.images_notes" | default "Dim dark mode image brightness"}}</label>
+      <label>{{ i18n "theme_controls.images_notes" | default "Dim dark mode image brightness" }}</label>
       <label class="component switch both">
         <input type="checkbox" id="dim-image-selector" checked>
         <span></span>
@@ -105,9 +105,9 @@
     </div>
 
     {{/*  Shape  */}}
-    <span class="theme-controls-title title-medium">{{ i18n "theme_controls.shapes" |default "Shapes"}}</span>
+    <span class="theme-controls-title title-medium">{{ i18n "theme_controls.shapes" | default "Shapes" }}</span>
     <div id="shape-selector-container">
-      <label>{{ i18n "theme_controls.shapes_notes" | default "Shape corner roundness"}}</label>
+      <label>{{ i18n "theme_controls.shapes_notes" | default "Shape corner roundness" }}</label>
       <div class="slider">
         <input type="range" id="shape-selector" min="0.0" max="4.0" value="1.7" step="0.05"/>
         <span class="tooltip" id="shape-tooltip"></span>
@@ -115,11 +115,11 @@
     </div>
 
     {{/*  Typography  */}}
-    <span class="theme-controls-title title-medium">{{ i18n "theme_controls.typography" | default "Typography"}}</span>
+    <span class="theme-controls-title title-medium">{{ i18n "theme_controls.typography" | default "Typography" }}</span>
     <div id="typography-selector-container">
       {{/*  Max char width toggle */}}
       <div id="max-width-selector">
-        <label>{{ i18n "theme_controls.text_width" |  default "Content text width"}}</label>
+        <label>{{ i18n "theme_controls.text_width" | default "Content text width" }}</label>
         <div class="set segmented-buttons">
           <label class="component button segmented start">
             <input type="radio" name="width" id="width-selector-60" value="60"/>
@@ -142,14 +142,14 @@
       </div>
       
       {{/*  Font size  */}}
-      <label>{{ i18n "theme_controls.font_size" | default "Font Size"}}</label>
+      <label>{{ i18n "theme_controls.font_size" | default "Font Size" }}</label>
       <div class="slider">
         <input type="range" id="font-size-selector" min="8" max="24" value="14" step="1">
         <span class="tooltip" id="font-size-tooltip">14px</span>
       </div>
 
       {{/*  Line height  */}}
-      <label>{{ i18n "theme_controls.line_height" | default "Line Height"}}</label>
+      <label>{{ i18n "theme_controls.line_height" | default "Line Height" }}</label>
       <div class="slider">
         <input type="range" id="line-height-selector" min="1" max="2.5" value="1.25" step="0.05">
         <span class="tooltip" id="line-height-tooltip">1.5</span>
@@ -158,72 +158,70 @@
       {{/*  Font families  */}}
       <div id="typography-selector">
         {{/*  Brand  */}}
-        <fieldset class="typography-fieldset">
-          <legend><label>{{ i18n "theme_controls.brand_font" | default "Brand font family"}}</label></legend>
-          <label class="component radio">
-            <input type="radio" name="brand-font" id="font-brand-raleway" value="Raleway" checked>
-            <span>Raleway</span>
-          </label>
-          <label class="component radio">
+      <fieldset class="typography-fieldset">
+        <legend><label>{{ i18n "theme_controls.brand_font" | default "Brand font family" }}</label></legend>
+        <label class="component radio">
+          <input type="radio" name="brand-font" id="font-brand-raleway" value="Raleway" checked>
+          <span>Raleway</span>
+        </label>
+        <label class="component radio">
             <input type="radio"  name="brand-font" id="font-brand-rubik" value="Rubik">
-            <span>Rubik</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" name="brand-font" id="font-brand-bookman" value="Bookman">
-            <span>Bookman</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" name="brand-font" id="font-brand-century-schoolbook" value="Century Schoolbook">
-            <span>Century Schoolbook</span>
-          </label>
-          <div class="example title-small">{{ i18n "theme_controls.example_brand_text" | default "Example: Brand text"}}</div>
-        </fieldset>
+          <span>Rubik</span>
+        </label>
+        <label class="component radio">
+          <input type="radio" name="brand-font" id="font-brand-bookman" value="Bookman">
+          <span>Bookman</span>
+        </label>
+        <label class="component radio">
+          <input type="radio" name="brand-font" id="font-brand-century-schoolbook" value="Century Schoolbook">
+          <span>Century Schoolbook</span>
+        </label>
+        <div class="example title-small">{{ i18n "theme_controls.example_brand_text" | default "Example: Brand text" }}</div>
+      </fieldset>
 
         {{/*  Plain  */}}
-        <fieldset class="typography-fieldset">
-          <legend><label>{{ i18n "theme_controls.plain_font" | default "Plain font family"}}</label></legend>
-          <label class="component radio">
-            <input type="radio" name="plain-font" id="font-plain-rubik" value="Rubik" checked>
-            <span>Rubik</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" name="plain-font" id="font-plain-raleway" value="Raleway">
-            <span>Raleway</span>
-          </label>
-          </label>
-          <label class="component radio">
-            <input type="radio" name="plain-font" id="font-plain-helvetica" value="Helvetica">
-            <span>Helvetica</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" name="plain-font" id="font-plain-verdana" value="Verdana">
-            <span>Verdana</span>
-          </label>
-          <div class="example body-large">{{ i18n "theme_controls.example_plain_text" | default "Example: Plain text"}}</div>
-        </fieldset>
+      <fieldset class="typography-fieldset">
+        <legend><label>{{ i18n "theme_controls.plain_font" | default "Plain font family" }}</label></legend>
+        <label class="component radio">
+          <input type="radio" name="plain-font" id="font-plain-rubik" value="Rubik" checked>
+          <span>Rubik</span>
+        </label>
+        <label class="component radio">
+          <input type="radio" name="plain-font" id="font-plain-raleway" value="Raleway">
+          <span>Raleway</span>
+        </label>
+        <label class="component radio">
+          <input type="radio" name="plain-font" id="font-plain-helvetica" value="Helvetica">
+          <span>Helvetica</span>
+        </label>
+        <label class="component radio">
+          <input type="radio" name="plain-font" id="font-plain-verdana" value="Verdana">
+          <span>Verdana</span>
+        </label>
+        <div class="example body-large">{{ i18n "theme_controls.example_plain_text" | default "Example: Plain text" }}</div>
+      </fieldset>
 
         {{/*  Code  */}}
-        <fieldset class="typography-fieldset">
-          <legend><label>{{ i18n "theme_controls.code_font" |default "Code font family"}}</label></legend>
-          <label class="component radio">
-            <input type="radio" name="code-font" id="font-sometype-mono" value="SomeType Mono" checked>
-            <span>SomeType Mono</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" name="code-font" id="font-courier-new" value="Courier New">
-            <span>Courier New</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" name="code-font" id="font-andale-mono" value="Andale Mono">
-            <span>Andale Mono</span>
-          </label>
-          <label class="component radio">
-            <input type="radio" name="code-font" id="font-consolas" value="Consolas">
-            <span>Consolas</span>
-          </label>
-          <div class="example code-typeface">{{ i18n "theme_controls.example_code_text" | default "Example: Code text"}}</div>
-        </fieldset>
-      </div>
+      <fieldset class="typography-fieldset">
+        <legend><label>{{ i18n "theme_controls.code_font" | default "Code font family" }}</label></legend>
+        <label class="component radio">
+          <input type="radio" name="code-font" id="font-sometype-mono" value="SomeType Mono" checked>
+          <span>SomeType Mono</span>
+        </label>
+        <label class="component radio">
+          <input type="radio" name="code-font" id="font-courier-new" value="Courier New">
+          <span>Courier New</span>
+        </label>
+        <label class="component radio">
+          <input type="radio" name="code-font" id="font-andale-mono" value="Andale Mono">
+          <span>Andale Mono</span>
+        </label>
+        <label class="component radio">
+          <input type="radio" name="code-font" id="font-consolas" value="Consolas">
+          <span>Consolas</span>
+        </label>
+        <div class="example code-typeface">{{ i18n "theme_controls.example_code_text" | default "Example: Code text" }}</div>
+      </fieldset>
     </div>
   </div>
 </button>

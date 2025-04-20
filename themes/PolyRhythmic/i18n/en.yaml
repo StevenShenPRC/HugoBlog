@@ -1,50 +1,51 @@
-# Page navigation
-
 - id: prev_page
-  translation: "Previous"
+  translation: "Previous Page"
+
+- id: title_prev_page
+  translation: "Previous Page (p)"
 
 - id: next_page
-  translation: "Up next"
+  translation: "Next Page"
 
-# Post meta
+- id: title_next_page
+  translation: "Next Page (n)"
+
+- id: title_rand_page
+  translation: "Random Page (r)"
 
 - id: read_time
-  translation: "{{ .Count }} min read"
-
-# Table of contents
+  translation:
+    one : "1 minute"
+    other: "{{ .Count }} minutes"
 
 - id: toc
-  translation: "On this page"
-
-# Navigation
+  translation: "Table of Contents"
 
 - id: translations
-  translation: "Translations"
+  translation: "Languages"
 
 - id: home
   translation: "Home"
 
-- id: search_placeholder
-  translation: "Search"
-
-# Code block
-
 - id: code_copy
-  translation: "copy"
+  translation: "Copy"
 
 - id: code_copied
-  translation: "copied!"
+  translation: "Copied!"
+
+- id: search_placeholder
+  translation: "Search"
 
 # Contact 
 
 - id: js_required
-  translation: "JavaScript is required to submit this form."
+  translation: "JavaScript is required to submit this form"
 
 - id: contact_submitted
-  translation: "Thank you for your message. It has been sent."
+  translation: "Thank you for your message, it has been sent."
 
 - id: contact_error
-  translation: "There was an error sending your message. Please try again later."
+  translation: "There was an error sending your message, please try again later."
 
 - id: contact_name
   translation: "Name"
@@ -53,7 +54,7 @@
   translation: "Enter your name"
 
 - id: contact_mail
-  translation: "Email"
+  translation: "Email Address"
 
 - id: contact_mail_placeholder
   translation: "Enter your email address"
@@ -71,7 +72,7 @@
   translation: "Enter your message"
 
 - id: contact_submit_feedback
-  translation: "Submit feedback"
+  translation: "Submit Feedback"
 
 # 404
 
@@ -79,13 +80,92 @@
   translation: "Page not found"
 
 - id: 404_back_home
-  translation: "Back to home"
+  translation: "Back to Home"
 
-# Input list of other UI components to translate
+- id: title_go_to_home
+  translation: "Back to Home (h)"
 
-# Navigation labels
-# Button text
-# Form labels
-# Section headings
-# Footer text
-# Error messages
+# theme control page 主题设置页
+- id: title_toggle_dark_mode
+  translation: "Toggle Dark Mode (t)"
+
+- id: theme_controls
+  translation: "Theme Controls"
+
+- id: title_theme_controls
+  translation: "Theme Controls (c)"
+
+- id: theme_controls.color
+  translation: "Colors"
+
+- id: theme_controls.hue
+  translation: "Hue"
+
+- id: theme_controls.rand_hues
+  translation: "Randomize Hues"
+
+- id: theme_controls.chroma
+  translation: "Chroma"
+
+- id: theme_controls.rand_chroma
+  translation: "Randomize Chromas"
+
+- id: theme_controls.lightness
+  translation: "Lightness"
+
+- id: theme_controls.color_temp
+  translation: "Color Temperature"
+
+- id: theme_controls.cooler
+  translation: "Cooler"
+
+- id: theme_controls.warmer
+  translation: "Warmer"
+
+- id: theme_controls.contrast
+  translation: "Contrast"
+
+- id: theme_controls.images
+  translation: "Image Settings"
+
+- id: theme_controls.images_notes
+  translation: "Dim images in dark mode"
+
+- id: theme_controls.shapes
+  translation: "Shape Settings"
+
+- id: theme_controls.shapes_notes
+  translation: "Shape corner radius"
+
+- id: theme_controls.typography
+  translation: "Typography Settings"
+
+- id: theme_controls.text_width
+  translation: "Text Content Width"
+
+- id: theme_controls.font_size
+  translation: "Font Size"
+
+- id: theme_controls.line_height
+  translation: "Line Height"
+
+- id: theme_controls.brand_font
+  translation: "Brand Font Family"
+
+- id: theme_controls.plain_font
+  translation: "Plain Text Font Family"
+
+- id: theme_controls.code_font
+  translation: "Code Font Family"
+
+- id: theme_controls.example_brand_text
+  translation: "Brand Font Example: Example Brand Text 123"
+
+- id: theme_controls.example_plain_text
+  translation: "Plain Text Example: Example Plain Text 123"
+
+- id: theme_controls.example_code_text
+  translation: "Code Text Example: Example Code Text 123"
+
+- id: theme_controls.contrast
+  translation: "Contrast"

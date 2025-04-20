@@ -11,8 +11,8 @@
 
   {{ if and .rich .actions }}
     <div class="actions">
-      <button class="component button common">Cancel</button>
-      <button class="component button common">Accept</button>
+      <button class="component button common">{{ i18n "tooltips.cancel" |default "Cancel"}}</button>
+      <button class="component button common">{{ i18n "tooltips.accept" |  default "Accept"}}</button>
     </div>
   {{ end }}
 </div>

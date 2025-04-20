@@ -65,7 +65,7 @@
   <nav 
     id="share-links" 
     aria-label="Share Links">
-    <span class="page-links-title title-large">Share</span>
+    <span class="page-links-title title-large">{{ i18n "share-links.share" | default "Share" }}</span>
 
     {{ $pageurl := .Permalink }}
     {{ $title := .Title }}
@@ -174,7 +174,7 @@
         aria-label="share {{ $title | plainify }} via email" 
         href="mailto:?subject={{ $title }}&body={{ $pageurl }}">
         <i class="icon">email</i> 
-        Email
+        {{i18n "share-links.email" | default "Email"}}
       </a>
 
       <a  
@@ -182,7 +182,7 @@
         aria-label="print {{ $title | plainify }}"
         href="javascript:window.print()">
         <i class="icon">print</i> 
-        Print
+       {{ i18n "share-links.print" | default "Print"}}
       </a>
     </div>
   </nav>

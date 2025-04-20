@@ -20,3 +20,48 @@
   
 - id: home
   translation: "الصفحة الرئيسية"
+
+- id: theme_controls.images
+  translation: "إعدادات الصور"
+
+- id: theme_controls.images_notes
+  translation: "ت затем الصور في الوضع الداكن"
+
+- id: theme_controls.shapes
+  translation: "إعدادات الأشكال"
+
+- id: theme_controls.shapes_notes
+  translation: "نصف قطر الزوايا"
+
+- id: theme_controls.typography
+  translation: "إعدادات الطباعة"
+
+- id: theme_controls.text_width
+  translation: "عرض النص"
+
+- id: theme_controls.font_size
+  translation: "حجم الخط"
+
+- id: theme_controls.line_height
+  translation: "ارتفاع السطر"
+
+- id: theme_controls.brand_font
+  translation: "عائلة خط العلامة التجارية"
+
+- id: theme_controls.plain_font
+  translation: "عائلة خط النص العادي"
+
+- id: theme_controls.code_font
+  translation: "عائلة خط الكود"
+
+- id: theme_controls.example_brand_text
+  translation: "مثال على خط العلامة التجارية: مثال على نص العلامة التجارية 123"
+
+- id: theme_controls.example_plain_text
+  translation: "مثال على خط النص العادي: مثال على نص عادي 123"
+
+- id: theme_controls.example_code_text
+  translation: "مثال على خط الكود: مثال على نص الكود 123"
+
+- id: theme_controls.contrast
+  translation: "الניגוד"

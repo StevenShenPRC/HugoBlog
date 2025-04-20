@@ -1,25 +1,135 @@
 - id: prev_page
   translation: "Página anterior"
 
+- id: title_prev_page
+  translation: "Página anterior (p)"
+
 - id: next_page
   translation: "Página siguiente"
 
+- id: title_next_page
+  translation: "Página siguiente (n)"
+
+- id: title_rand_page
+  translation: "Página aleatoria (r)"
+
 - id: read_time
   translation:
-    one : "1 min"
-    other: "{{ .Count }} min"
+    one : "1 minuto"
+    other: "{{ .Count }} minutos"
 
 - id: toc
-  translation: "Tabla de Contenidos"
+  translation: "Tabla de contenidos"
 
 - id: translations
-  translation: "Traducciones"
+  translation: "Idiomas"
 
 - id: home
   translation: "Inicio"
 
 - id: code_copy
-  translation: "copiar"
+  translation: "Copiar"
 
 - id: code_copied
-  translation: "¡copiado!"
+  translation: "¡Copiado!"
+
+- id: search_placeholder
+  translation: "Buscar"
+
+# Contact 
+
+- id: js_required
+  translation: "Se requiere JavaScript para enviar este formulario"
+
+- id: contact_submitted
+  translation: "Gracias por tu mensaje, ha sido enviado."
+
+- id: contact_error
+  translation: "Hubo un error al enviar tu mensaje, por favor inténtalo de nuevo más tarde."
+
+- id: contact_name
+  translation: "Nombre"
+
+- id: contact_name_placeholder
+  translation: "Ingresa tu nombre"
+
+- id: contact_mail
+  translation: "Dirección de correo electrónico"
+
+- id: contact_mail_placeholder
+  translation: "Ingresa tu dirección de correo electrónico"
+
+- id: contact_subject
+  translation: "Asunto"
+
+- id: contact_subject_placeholder
+  translation: "Ingresa el asunto de tu mensaje"
+
+- id: contact_message
+  translation: "Mensaje"
+
+- id: contact_message_placeholder
+  translation: "Ingresa tu mensaje"
+
+- id: contact_submit_feedback
+  translation: "Enviar comentario"
+
+# 404
+
+- id: 404_message
+  translation: "Página no encontrada"
+
+- id: 404_back_home
+  translation: "Volver a la página de inicio"
+
+- id: title_go_to_home
+  translation: "Volver a la página de inicio (h)"
+
+# theme control page 主题设置页
+- id: title_toggle_dark_mode
+  translation: "Alternar modo oscuro (t)"
+
+- id: theme_controls
+  translation: "Controles de tema"
+
+- id: title_theme_controls
+  translation: "Controles de tema (c)"
+
+- id: theme_controls.color
+  translation: "Colores"
+
+- id: theme_controls.hue
+  translation: "Matiz"
+
+- id: theme_controls.rand_hues
+  translation: "Aleatorizar matiz"
+
+- id: theme_controls.chroma
+  translation: "Croma"
+
+- id: theme_controls.rand_chroma
+  translation: "Aleatorizar croma"
+
+- id: theme_controls.lightness
+  translation: "Brillo"
+
+- id: theme_controls.color_temp
+  translation: "Temperatura de color"
+
+- id: theme_controls.cooler
+  translation: "Más frío"
+
+- id: theme_controls.warmer
+  translation: "Más cálido"
+
+- id: theme_controls.contrast
+  translation: "Contraste"
+
+- id: theme_controls.images
+  translation: "Configuración de imágenes"
+
+- id: theme_controls.images_notes
+  translation: "Atenuar las imágenes en modo oscuro"
+
+- id: theme_controls.shapes_notes
+  translation: "Radio de esquina de las formas"

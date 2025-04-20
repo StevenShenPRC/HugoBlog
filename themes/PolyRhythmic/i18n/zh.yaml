@@ -2,16 +2,16 @@
   translation: "上一页"
 
 - id: title_prev_page
-  translation: "上一页(p)"
+  translation: "上一页 (p)"
 
 - id: next_page
   translation: "下一页"
 
-- id: next_page
-  translation: "下一页(n)"
+- id: title_next_page
+  translation: "下一页 (n)"
 
 - id: title_rand_page
-  translation: "随机一页（r）"
+  translation: "随机一页 (r)"
 
 - id: read_time
   translation:
@@ -83,7 +83,7 @@
   translation: "回到首页"
 
 - id: title_go_to_home
-  translation: "回到首页（h）"
+  translation: "回到首页 (h)"
 
 
 # theme control page 主题设置页
@@ -93,38 +93,17 @@
 - id: theme_controls
   translation: "主题设置"
 
-- id: title_theme_contols
-  translation: "主题设置（c）"
-
-- id: theme_controls.color
-  translation: "颜色"
-
 - id: theme_controls.hue
   translation: "色调"
 
-- id: theme_controls.rand_hues
-  translation: "随机色调"
-
 - id: theme_controls.chroma
   translation: "饱和度"
-
-- id: theme_controls.rand_chroma
-  translation: "随机饱和度"
 
 - id: theme_controls.lightness
   translation: "亮度"
 
 - id: theme_controls.color_temp
   translation: "色温"
-
-- id: theme_controls.cooler
-  translation: "冷色调"
-
-- id: theme_controls.warmer
-  translation: "暖色调"
-
-- id: theme_controls.contrast
-  translation: "对比度"
 
 - id: theme_controls.images
   translation: "图片设置"
@@ -159,6 +138,18 @@
 - id: theme_controls.code_font
   translation: "代码字体家族"
 
+- id: theme_controls.rand_hues
+  translation: "随机色调"
+
+- id: theme_controls.rand_chroma
+  translation: "随机饱和度"
+
+- id : theme_controls.cooler
+  translation: "冷色调"
+
+- id: theme_controls.warmer
+  translation: "暖色调"
+
 - id: theme_controls.example_brand_text
   translation: "标题字体示例 Example: Brand text 123"
 
@@ -176,6 +167,31 @@
 
 - id: theme_controls.contrast
   translation: "对比度"
+
+- id: share-links.share
+  translation: "分享"
+
+- id : share-links.email
+  translation: "通过邮件分享本页"
+
+- id : share-links.print
+  translation: "打印本页"
+
+- id : toc.on_this_page
+  translation: "本页内容"
+
+- id : tooltips.accept
+  translation: "接受"
+
+- id : tooltips.cancel
+  translation: "取消"
+
+- id : btn.cancel
+  translation: "取消"
+
+- id : btn.ok
+  translation: "确定"
+
 
 
 # Input list of other UI components to translate
